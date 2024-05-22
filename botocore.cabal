@@ -17,6 +17,8 @@ build-type:    Simple
 extra-doc-files:
   README.md
 
+tested-with: GHC ==9.4.8
+
 source-repository head
   type:     git
   location: git://github.com/bellroy/botocore.git
