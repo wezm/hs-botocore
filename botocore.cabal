@@ -2,6 +2,9 @@ cabal-version: 2.2
 name:          botocore
 version:       0.1.0.0
 synopsis:      Representation of botocore types
+description:
+  This library provides types a precise parser for the "botocore"
+  definitions of Amazon Web Services (AWS) service APIs.
 homepage:      https://github.com/brendanhay/amazonka
 bug-reports:   https://github.com/brendanhay/amazonka/issues
 license:       BSD-3-Clause
@@ -11,6 +14,8 @@ maintainer:    Bellroy Tech Team <haskell@bellroy.com>
 copyright:     Copyright (c) 2023 Bellroy Pty Ltd
 category:      AWS
 build-type:    Simple
+extra-doc-files:
+  README.md
 
 source-repository head
   type:     git
